@@ -1,0 +1,20 @@
+{
+  "CFDDiscovery": {
+  "executable_path": "C:/Users/deart/Desktop/Tesi/cfddiscovery-master/build/CFDD.exe",
+  "support_count": 900,
+  "confidence": 0.86,
+  "max_condition_size": 2
+},
+
+
+"CFDParsing": {
+  "columns": ["sex", "native-country", "age-range", "income", "hours-per-week-range", "education-degree", "workclass"],
+  "conditionslhs": [],
+  "conditionsrhs": [],
+  "ignore_value": "=!",
+  "lhs_separator": ", ",
+  "arrow_string": " => ",
+  "target_attribute": "income=",
+  "protected_attributes": ["race", "sex"]
+}
+}
